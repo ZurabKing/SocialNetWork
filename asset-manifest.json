@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ZurabKing/SocialNetWork.git/static/css/main.2639a1a5.css",
+    "main.js": "/ZurabKing/SocialNetWork.git/static/js/main.04a926fa.js",
+    "static/media/background.jpg": "/ZurabKing/SocialNetWork.git/static/media/background.bea32eb2daea71db02e1.jpg",
+    "index.html": "/ZurabKing/SocialNetWork.git/index.html",
+    "main.2639a1a5.css.map": "/ZurabKing/SocialNetWork.git/static/css/main.2639a1a5.css.map",
+    "main.04a926fa.js.map": "/ZurabKing/SocialNetWork.git/static/js/main.04a926fa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2639a1a5.css",
+    "static/js/main.04a926fa.js"
+  ]
+}
