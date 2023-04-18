@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family:'Montserrat';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;  
+    background-image: url("../public/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.App {
+    width: 300px;
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px #ccc;
+    letter-spacing: 1px;   
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.login__title {
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    margin: 0px 0px 32px 0px;
+}
+
+.login__input,
+.login__button{
+    font-family: sans-serif;
+    box-shadow: 0 4px 16px #ccc;
+    letter-spacing: 1px;
+    font-weight: 16px;
+}
+.login__group {
+    position: relative;
+    margin-bottom: 32px;
+    height: 36px;
+}
+
+.login__label {
+    color: #9e9e9e;
+    transition: 0.3s;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.login__input {
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+    border-radius: 2px;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: transparent;
+    outline: none;
+    transition: 0.3s;
+}
+
+.login__input:focus {
+    border-bottom: 1px solid #1a73a8;
+}
+
+.login__input:focus ~ .login__label,
+.login__input:not(:placeholder-shown) ~ .login__label {
+    top: -14px;
+    left: 0;
+    color: black;
+}
+
+.link__bottom{
+    color: #fff;
+    font-family: 'Chivo Mono';
+    font-weight: 600;
+}
+
+
+.login__button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #0399b1;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login__button:focus,
+.login__button:hover{
+    background-color: rgba(0, 113, 240, 0.7);
+}
+
+.forgot__password{
+    display: flex;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.help__pass{
+    margin-right: 19px;
+    margin-left: 10px;
+    text-decoration:underline;
+    opacity: 0.5;
+}
+
+.help__register{
+    text-decoration:underline;
+    opacity: 0.5;
+}
+
+.help__pass:hover,
+.help__register:hover{
+    opacity: 1;
+}
+
+
